@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>L'angolo del lettore</title>
+
+    <style>
+        * {
+            font-family: "Times New Roman", Times, serif;
+            text-align: center;
+        }
+
+        body {
+            background-color: burlywood;
+            margin: 0;
+            padding: 0;
+        }
+
+        .stile {
+            color: firebrick;
+            font-family: Impact, sans-serif;
+        }
+
+        #paragrafi {
+            border: 5px solid red;
+            margin: 20px;
+            padding: 15px;
+            font-weight: bold;
+        }
+
+        #paragrafi:hover {
+            background-color: rgb(202, 105, 25);
+        }
+
+        table {
+            width: 70%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead {
+            background-color: rgb(180, 80, 20);
+        }
+
+        tbody tr {
+            background-color: rgb(231, 161, 8);
+        }
+
+        tbody tr:hover {
+            background-color: rgb(238, 120, 9);
+        }
+
+        img {
+            width: 25%;
+            margin: 20px 0;
+        }
+
+        input {
+            padding: 5px 20px;
+            border: 3px solid red;
+            display: block;
+            margin: 10px auto;
+        }
+
+        .introduzione {
+            font-size: 18px;
+            margin: 20px;
+        }
+
+        a {
+            color: darkred;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paragrafi">
+        <h1 class="stile">L'angolo del lettore</h1>
+        <hr>
+        <p>
+            Ho deciso di creare questo spazio digitale in cui recensire le mie più recenti letture
+            per aiutare chi si avvicina alla lettura o chi è colpito dal blocco del lettore
+            a orientarsi nel vasto mondo della narrativa.
+        </p>
+        <p>L’artista recensita oggi è Jane Austen.</p>
+    </div>
+
+    <p class="introduzione">
+        Si dovrebbe leggere Jane Austen per la sua acuta osservazione delle dinamiche sociali,
+        di classe e di genere, mascherate da commedie romantiche che esplorano amore,
+        matrimonio e moralità con ironia e intelligenza.
+    </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="stile">Opera</th>
+                <th class="stile">Descrizione</th>
+                <th class="stile">Voto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="stile">Orgoglio e pregiudizio</td>
+                <td>
+                    Un capolavoro senza tempo che esplora l’orgoglio e i pregiudizi
+                    che ostacolano l’amore tra Elizabeth Bennet e Mr. Darcy,
+                    offrendo una critica sociale ancora attuale.
+                </td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td class="stile">Emma</td>
+                <td>
+                    Il ritratto di un’eroina brillante ma vanitosa che,
+                    attraverso errori e fraintendimenti,
+                    cresce imparando l’umiltà e la consapevolezza di sé.
+                </td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td class="stile">Persuasione</td>
+                <td>
+                    Il romanzo più malinconico di Austen,
+                    incentrato sulla seconda possibilità e sulla forza
+                    dei sentimenti autentici.
+                </td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td class="stile">L'abbazia di Northanger</td>
+                <td>
+                    Una brillante satira dei romanzi gotici che segue
+                    la crescita dell’ingenua Catherine Morland
+                    tra ironia e disincanto.
+                </td>
+                <td>8</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8X-jAtZjLSY3tMWMmQq5b-ffip2o7r8tGJpjSKDIHMpfSmgWRKIfWQgy4VduPuknPaAyz_KPk6_qgVll4WRVrjaFoA1wl8uKFmCcKTzSgFw&s=10" alt="Jane Austen">
+
+    <h2 class="stile">Ragazze a Beverly Hills</h2>
+
+    <p>
+        A chi è interessato a leggere <strong>Emma</strong>, consiglio la visione del film
+        <em>Ragazze a Beverly Hills</em>, una rivisitazione moderna brillante e coinvolgente
+        del romanzo di Jane Austen.
+    </p>
+
+    <a href="https://www.bbc.co.uk/iplayer/episodes/m002kt9t/clueless" target="_blank">
+        Link utile per la visione del film
+    </a>
+
+    <h2>Proponi l'autore per la prossima recensione!</h2>
+
+    <label for="autore">Nome autore:</label>
+    <input type="text" id="autore">
+
+</body>
+</html>
